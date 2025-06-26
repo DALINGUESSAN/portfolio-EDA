@@ -49,7 +49,7 @@ streamlit run dashboard.py
 
 
 
-### 2. 🎯 Segmentation Marketing – *Campaign Data*
+# 2. 🎯 Segmentation Marketing – *Campaign Data*
 - Analyse des campagnes de marketing relationnel.
 - Segmentation RFM (Recency, Frequency, Monetary).
 - Analyse des comportements d’achat.

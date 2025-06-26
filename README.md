@@ -61,9 +61,9 @@ streamlit run dashboard.py
 
 
 
-## ✅ 2. `marketing_eda/README.md` — Analyse Marketing Campagne
+# ✅ 2. `marketing_eda/README.md` — Analyse Marketing Campagne
 
-```markdown
+
 # 🎯 Analyse Marketing – Campagne Relationnelle
 
 Ce projet explore une base de données client d’une entreprise de vente en ligne pour analyser les comportements de consommation et la réponse à des campagnes.

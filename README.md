@@ -19,12 +19,80 @@ Bienvenue dans mon portfolio de projets d'**Analyse Exploratoire de Données (ED
 - 📁 Dossier : `fraude_eda/`
 - 🖥️ Dashboard interactif : `fraude_eda/dashboard.py`
 
+# 🔍 Détection de Fraude – Credit Card Fraud
+
+Ce projet analyse un jeu de données anonymisé de transactions bancaires afin de détecter les schémas caractéristiques de la fraude.
+
+## 📌 Objectifs
+- Identifier les caractéristiques discriminantes des fraudes.
+- Visualiser les corrélations et distributions selon le type de transaction.
+- Préparer les données pour une modélisation future.
+
+## 📊 Visualisations clés
+- Heatmap de corrélation
+- Distribution des montants
+- Comparaison des distributions entre transactions frauduleuses et non frauduleuses
+
+## 📁 Fichiers importants
+- `fraude_eda/eda_fraude.py` → Script principal
+- `fraude_eda/dashboard.py` → Interface Streamlit
+- `fraude_eda/figures/` → Graphiques générés
+
+## 🚀 Lancer l'analyse
+```bash
+cd fraude_eda/
+python eda_fraude.py
+# ou
+streamlit run dashboard.py
+
+
+
+
+
 ### 2. 🎯 Segmentation Marketing – *Campaign Data*
 - Analyse des campagnes de marketing relationnel.
 - Segmentation RFM (Recency, Frequency, Monetary).
 - Analyse des comportements d’achat.
 - 📁 Dossier : `marketing_eda/`
 - 🖥️ Dashboard interactif : `marketing_eda/dashboard.py`
+
+
+
+
+---
+
+## ✅ 2. `marketing_eda/README.md` — Analyse Marketing Campagne
+
+```markdown
+# 🎯 Analyse Marketing – Campagne Relationnelle
+
+Ce projet explore une base de données client d’une entreprise de vente en ligne pour analyser les comportements de consommation et la réponse à des campagnes.
+
+## 📌 Objectifs
+- Identifier les profils les plus susceptibles de répondre à une campagne.
+- Étudier les variables influentes : revenu, âge, dépenses, etc.
+- Réduire la dimensionnalité avec la PCA.
+
+## 📊 Graphiques générés
+| Graphique | Description |
+|----------|-------------|
+| Répartition des réponses | Clients ayant répondu (ou non) à la campagne |
+| Distribution de l'âge | Calculée à partir de Year_Birth |
+| Distribution des revenus | Outliers détectés |
+| Dépenses par catégorie | Vins, produits d’or, fruits |
+| Corrélations | Variables numériques uniquement |
+| PCA | Visualisation 2D des clients selon leurs dépenses |
+
+📁 Graphiques disponibles dans `marketing_eda/figures/`
+
+## 🚀 Exécution locale
+```bash
+cd marketing_eda/
+python eda_marketing.py
+# ou
+streamlit run dashboard.py
+
+
 
 ---
 

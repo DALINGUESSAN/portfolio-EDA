@@ -38,13 +38,6 @@ Ce projet analyse un jeu de données anonymisé de transactions bancaires afin d
 - `fraude_eda/dashboard.py` → Interface Streamlit
 - `fraude_eda/figures/` → Graphiques générés
 
-## 🚀 Lancer l'analyse
-```bash
-cd fraude_eda/
-python eda_fraude.py
-# ou
-streamlit run dashboard.py
-
 
 
 
@@ -84,7 +77,12 @@ Ce projet explore une base de données client d’une entreprise de vente en lig
 | PCA | Visualisation 2D des clients selon leurs dépenses |
 
 📁 Graphiques disponibles dans `marketing_eda/figures/`
-
+## 🚀 Lancer l'analyse
+```bash
+cd fraude_eda/
+python eda_fraude.py
+# ou
+streamlit run dashboard.py
 ## 🚀 Exécution locale
 ```bash
 cd marketing_eda/

@@ -52,4 +52,17 @@ portfolio-EDA/
 │   └── dashboard.py
 ├── requirements.txt
 └── .gitignore
-```
+```## 📊 Visualisations
+
+### 1. Répartition des classes (fraude vs normale)
+> Les transactions frauduleuses représentent une part infime du total. Cela justifie l’utilisation de méthodes de rééquilibrage.
+
+### 2. Matrice de corrélation
+> Certaines variables sont faiblement corrélées à la variable cible. Cela aidera pour la sélection de variables pertinentes.
+
+### 3. Montant par type de transaction
+> Le montant moyen et les outliers varient selon qu’il s’agisse d’une fraude ou non.
+
+### 4. Distribution du montant
+> Distribution très asymétrique. Une transformation log est à envisager.
+
